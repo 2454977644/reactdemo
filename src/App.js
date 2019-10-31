@@ -30,6 +30,29 @@ function App() {
     );
 }
 
+//confirm Component 的示例
+/*
+class App extends Component {
+
+    async componentDidMount() {
+        let res = await confirm("确定删除吗")
+        if (res) {
+            console.log("是")
+        } else {
+            console.log("否")
+        }
+    }
+
+    render() {
+
+        return (
+            <div>
+                confirm组件
+            </div>
+        )
+    }
+}
+*/
 
 
 export default App;
